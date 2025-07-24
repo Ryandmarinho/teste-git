@@ -170,7 +170,7 @@ def main_bacenjud():
         WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable((By.XPATH, "(//a[@class='lnk1'])[3]"))
         ).click()
-        print("Teste git.")
+        print("RYAN DIAS ")
         print(f"Buscando GCPJ: {nmr_gcpj}")
     
         campo_input = WebDriverWait(driver, 10).until(
